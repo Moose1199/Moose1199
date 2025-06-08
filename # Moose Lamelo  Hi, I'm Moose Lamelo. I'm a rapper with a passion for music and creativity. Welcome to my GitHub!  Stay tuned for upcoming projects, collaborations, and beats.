@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Moose Lamelo - Musician from Limpopo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #121212;
+      color: #eee;
+      margin: 0; padding: 0;
+      text-align: center;
+    }
+    header {
+      padding: 2rem;
+      background: #1e1e1e;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: #4caf50;
+    }
+    p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+    section {
+      padding: 2rem;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    a {
+      color: #4caf50;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .album-cover {
+      max-width: 100%;
+      height: auto;
+      margin: 1.5rem 0;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    }
+    .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 1.2rem;
+      flex-wrap: wrap;
+      margin-top: 2rem;
+    }
+    .social-links a {
+      background: #1e1e1e;
+      padding: 0.7rem 1.2rem;
+      border-radius: 6px;
+      color: #4caf50;
+      transition: background 0.3s;
+    }
+    .social-links a:hover {
+      background: #2d2d2d;
+    }
+    .listen-button {
+      display: inline-block;
+      margin-top: 1rem;
+      background: #4caf50;
+      color: #121212;
+      padding: 0.9rem 1.7rem;
+      font-weight: bold;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .listen-button:hover {
+      background: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Moose Lamelo</h1>
+    <p>Musician from Limpopo, South Africa</p>
+  </header>
+
+  <section>
+    <h2>Welcome</h2>
+    <p>Hi, I'm Matidze Ronald Tshembuluwo, also known as Moose Lamelo. Born on January 5, 2004, I create music that tells my story and connects with my roots.</p>
+
+    <img src="the-power-album-cover.jpg" alt="The Power Album Cover" class="album-cover" />
+
+    <p>Check out my latest track below!</p>
+    <a href="https://open.spotify.com/artist/0JMJwB4BPswEKvUepfiOPM?si=Sjvm471TQaGwMNmEwk4-BA" class="listen-button" target="_blank">🎧 Listen Now on Spotify</a>
+
+    <div class="social-links">
+      <a href="https://www.tiktok.com/@moose_lamelo?_t=ZM-8x2DYxsKAZ3&_r=1" target="_blank">TikTok</a>
+      <a href="https://www.youtube.com/@Moose_Lamelo" target="_blank">YouTube</a>
+      <a href="https://open.spotify.com/artist/0JMJwB4BPswEKvUepfiOPM?si=Sjvm471TQaGwMNmEwk4-BA" target="_blank">Spotify</a>
+      <a href="https://www.instagram.com/moose_lamelo?igsh=MTA1aG14bWc1ZDBu" target="_blank">Instagram</a>
+    </div>
+  </section>
+</body>
+</html>
